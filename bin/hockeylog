@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'hockeylog'
+require 'pry'
+
+access_token = ARGV.first || raise("supply your hockeyapp access token")
+hockeylog = Hockeylog.init(access_token)
+p hockeylog.summaries
