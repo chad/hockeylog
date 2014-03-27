@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Use it.
+Don't use it yet.
 
 ## Contributing
 
